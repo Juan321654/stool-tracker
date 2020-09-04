@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import Review from './Review';
 import './App.css';
+
 
 function App() {
   const [reviews, setReviews] = useState([]);
@@ -24,7 +26,7 @@ function App() {
     <div className="App">
       {
         reviews.map((review) => (
-          <h4>{review.fields.type}</h4>
+          <Review review={review} key={review.id} />
         ))
       }
     </div>
