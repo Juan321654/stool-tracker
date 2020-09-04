@@ -1,7 +1,7 @@
 # Stool Tracker
 
 ## Description 
-Do you ever wonder or want to find out how frequently you suffer from bowel conditions like constipation, diarrhea, or bloody stool? Keeping track of your health or the health of your child and loved ones is a lot easier now with this app.
+Do you ever wonder or want to find out how frequently you suffer from bowel conditions like constipation, diarrhea, or bloody stool? Keeping records for your doctor, and also Keeping track of your health or the health of your child and loved ones is a lot easier with this app.
 
 ## Wireframes
 [![p2-1.png](https://i.postimg.cc/K8gC1dVz/p2-1.png)](https://postimg.cc/ZW4wgDJt)
