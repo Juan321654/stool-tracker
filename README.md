@@ -37,17 +37,21 @@ Airtable will handle the comments and user inputs
     "offset": "recdQqyKME3n2OEkE"
 }
 ```
+## hierarchy
+[![sadsaasdas.png](https://i.postimg.cc/c4f21zJZ/sadsaasdas.png)](https://postimg.cc/9rFJJJTN)
 
 ## MVP
-display comments <br>
-change between home and user input, <br>
-And allow the user to enter the info of the stool.
+user can input type and description of the stool which includes the date <br>
+change between home and user input <br>
+user can see results of entries in the home page
 
 ## Post-MVP 
-try to make it look modern or better with css styling
+choose category from a dropdown menu
 
 ## SWOT Analysis
-try to stay calm and ask questions to the right people
+strenghths: endurance, persistance, and patients
+weaknesses: becoming overwhelmed, mental block
+strategy: take a break, talk with my wife.
 
 ## future link
 www.netlify.com/futurelink
