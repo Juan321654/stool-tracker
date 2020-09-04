@@ -41,7 +41,7 @@ Airtable will handle the comments and user inputs
 [![sadsaasdas.png](https://i.postimg.cc/c4f21zJZ/sadsaasdas.png)](https://postimg.cc/9rFJJJTN)
 
 ## MVP
-display comments <br>
+user can input type and description of the stool which includes the date <br>
 change between home and user input, <br>
 And allow the user to enter the info of the stool.
 
