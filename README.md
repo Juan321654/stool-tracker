@@ -42,8 +42,8 @@ Airtable will handle the comments and user inputs
 
 ## MVP
 user can input type and description of the stool which includes the date <br>
-change between home and user input, <br>
-And allow the user to enter the info of the stool.
+change between home and user input <br>
+user can see results of entries in the home page
 
 ## Post-MVP 
 try to make it look modern or better with css styling
