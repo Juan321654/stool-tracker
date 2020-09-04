@@ -46,10 +46,12 @@ change between home and user input <br>
 user can see results of entries in the home page
 
 ## Post-MVP 
-try to make it look modern or better with css styling
+choose category from a dropdown menu
 
 ## SWOT Analysis
-try to stay calm and ask questions to the right people
+strenghths: endurance, persistance, and patients
+weaknesses: becoming overwhelmed, mental block
+strategy: take a break, talk with my wife.
 
 ## future link
 www.netlify.com/futurelink
