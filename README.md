@@ -12,6 +12,31 @@ Do you ever wonder or want to find out how frequently you suffer from bowel cond
 
 ## API 
 Airtable will handle the comments and user inputs
+```{
+    "records": [
+        {
+            "id": "recI6AUCTO8CyZSyI",
+            "fields": {
+                "title": "mooshie",
+                "time": "2020-09-04T00:00:00.000Z",
+                "text": "looks like a brown tomato soup"
+            },
+            "createdTime": "2020-09-03T23:54:19.000Z"
+        },
+        {
+            "id": "recVyPZKMvJ5KybHF",
+            "fields": {},
+            "createdTime": "2020-09-03T23:54:19.000Z"
+        },
+        {
+            "id": "recdQqyKME3n2OEkE",
+            "fields": {},
+            "createdTime": "2020-09-03T23:54:19.000Z"
+        }
+    ],
+    "offset": "recdQqyKME3n2OEkE"
+}
+```
 
 ## MVP
 display comments <br>
