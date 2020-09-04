@@ -22,7 +22,11 @@ function App() {
 
   return (
     <div className="App">
-
+      {
+        reviews.map((review) => (
+          <h4>{review.fields.type}</h4>
+        ))
+      }
     </div>
   );
 }
