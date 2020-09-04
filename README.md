@@ -14,8 +14,8 @@ Do you ever wonder or want to find out how frequently you suffer from bowel cond
 Airtable will handle the comments and user inputs
 
 ## MVP
-display comments 
-change between home and user input, 
+display comments <br>
+change between home and user input, <br>
 And allow the user to enter the info of the stool.
 
 ## Post-MVP 
