@@ -21,8 +21,10 @@ function Review(props) {
                 <small>{time}</small>
             </div>
 
+            <div>
+                <p>{text}</p>
+            </div>
 
-            <p>{text}</p>
 
         </div>
     )

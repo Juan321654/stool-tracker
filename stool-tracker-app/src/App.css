@@ -4,6 +4,8 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .user-post-time{
@@ -13,14 +15,14 @@
 }
 
 .user-post {
-  box-shadow: 2px 10px 20px lightgray;
+  box-shadow: 5px 5px 30px rgb(161, 97, 44);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   width: 600px;
   margin: 10px;
   padding-left: 8px;
-
+  border-radius: 15px;
 }
 
 
