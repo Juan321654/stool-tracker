@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Review from './Review';
+import CreateReview from './CreateReview';
 import './App.css';
 
 
@@ -23,13 +24,17 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      {
-        reviews.map((review) => (
-          <Review review={review} key={review.id} />
-        ))
-      }
+    <div>
+      <div className="App">
+        {
+          reviews.map((review) => (
+            <Review review={review} key={review.id} />
+          ))
+        }
+      </div>
+      <CreateReview />
     </div>
+
   );
 }
 

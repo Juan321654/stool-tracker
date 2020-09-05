@@ -24,8 +24,6 @@ function Review(props) {
             <div>
                 <p>{text}</p>
             </div>
-
-
         </div>
     )
 }
