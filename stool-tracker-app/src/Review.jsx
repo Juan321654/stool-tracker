@@ -2,10 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 function Review(props) {
-    // const [type, setType] = useState();
-    // const [text, setText] = useState();
-    // const [time, setTime] = useState();
-
+    const { type, text, time } = props.review.fields
 
 
     // const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/frylife`;
@@ -18,8 +15,15 @@ function Review(props) {
     // });
 
     return (
-        <div>
-            <h4>Hi</h4>
+        <div className="user-post">
+            <div className="user-post-time">
+                <h4>{type}</h4>:
+                <small>{time}</small>
+            </div>
+
+
+            <p>{text}</p>
+
         </div>
     )
 }
