@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import axios from 'axios';
 
-function CreateReview(props) {
+function CreateReview() {
     const [type, setType] = useState('');
     const [description, setDescription] = useState('');
 
@@ -12,13 +12,15 @@ function CreateReview(props) {
             description
         };
         const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/stool-tracker`;
-        const response = await axios.post(airtableURL, { data: { fields } }, {
+        // await axios.post(url, data, options (headers))
+        await axios.post(airtableURL, { fields }, {
             headers: {
                 'Authorization': `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
                 'Content-Type': 'application/json',
             }
         });
-        console.log(response)
+        setType('');
+        setDescription('');
     }
 
     return (
