@@ -1,11 +1,28 @@
 import React, { useState } from 'react'
+import axios from 'axios';
 
 function CreateReview(props) {
     const [type, setType] = useState('');
     const [description, setDescription] = useState('');
 
+    const handleSubmit = async (event) => {
+        event.preventDefault();
+        const fields = {
+            type,
+            description
+        };
+        const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/stool-tracker`;
+        const response = await axios.post(airtableURL, { data: { fields } }, {
+            headers: {
+                'Authorization': `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
+                'Content-Type': 'application/json',
+            }
+        });
+        console.log(response)
+    }
+
     return (
-        <form>
+        <form onSubmit={handleSubmit}>
             <label htmlFor="type">Type</label>
             <input
                 name="type "
