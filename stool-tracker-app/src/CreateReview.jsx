@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import axios from 'axios';
 
-function CreateReview() {
+function CreateReview(props) {
     const [type, setType] = useState('');
     const [text, setText] = useState('');
 
@@ -20,6 +20,7 @@ function CreateReview() {
                 'Content-Type': 'application/json',
             }
         });
+        props.setFetchReview(!props.fetchReviews);
         setType('');
         setText('');
     }
@@ -43,7 +44,9 @@ function CreateReview() {
             </textarea>
 
             <button type="submit">Submit</button>
+
         </form>
+
     )
 }
 
