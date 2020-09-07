@@ -1,7 +1,7 @@
 import React from "react";
-import ShowReview from "./ShowReview";
+import ShowReview from "./Components/ShowReview";
 import { Link, Route } from "react-router-dom";
-import CreateReview from "./CreateReview";
+import CreateReview from "./Components/CreateReview";
 import "./App.css";
 
 function App() {
