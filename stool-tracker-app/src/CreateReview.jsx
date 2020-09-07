@@ -24,7 +24,7 @@ function CreateReview() {
     }
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form className="user-form" onSubmit={handleSubmit}>
             <label htmlFor="type">Type</label>
             <input
                 name="type "
@@ -34,7 +34,7 @@ function CreateReview() {
             </input>
 
             <label htmlFor="description">Description:</label>
-            <textarea
+            <textarea className="user-text"
                 name="description"
                 type="text"
                 value={description}
