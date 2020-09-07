@@ -3,15 +3,16 @@ import axios from 'axios';
 
 function CreateReview() {
     const [type, setType] = useState('');
-    const [description, setDescription] = useState('');
+    const [text, setText] = useState('');
 
     const handleSubmit = async (event) => {
         event.preventDefault();
         const fields = {
             type,
-            description
+            text
         };
         const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/stool-tracker`;
+        console.log(airtableURL)
         // await axios.post(url, data, options (headers))
         await axios.post(airtableURL, { fields }, {
             headers: {
@@ -20,7 +21,7 @@ function CreateReview() {
             }
         });
         setType('');
-        setDescription('');
+        setText('');
     }
 
     return (
@@ -33,12 +34,12 @@ function CreateReview() {
                 onChange={(event) => setType(event.target.value)}>
             </input>
 
-            <label htmlFor="description">Description:</label>
+            <label htmlFor="text">Description:</label>
             <textarea className="user-text"
-                name="description"
+                name="text"
                 type="text"
-                value={description}
-                onChange={(event) => setDescription(event.target.value)}>
+                value={text}
+                onChange={(event) => setText(event.target.value)}>
             </textarea>
 
             <button type="submit">Submit</button>
