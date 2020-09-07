@@ -1,5 +1,6 @@
 import React from 'react';
 import ShowReview from './ShowReview';
+import { Link, Route } from 'react-router-dom';
 import CreateReview from './CreateReview';
 import './App.css';
 
@@ -9,7 +10,27 @@ function App() {
 
   return (
     <div>
-      <ShowReview />
+      <header><h1>Stool Tracker</h1></header>
+      <nav>
+        <button className="home-button">
+          <Link to="/">Home</Link>
+        </button>
+
+        <button>
+          <Link to="/create">Write a Review</Link>
+        </button>
+      </nav>
+      <div>
+        <Route exact path="/">
+          <ShowReview />
+        </Route>
+        <Route path="/create">
+
+          <CreateReview />
+        </Route>
+
+      </div>
+
       {/* <CreateReview /> */}
     </div>
 

@@ -20,7 +20,8 @@ function CreateReview(props) {
                 'Content-Type': 'application/json',
             }
         });
-        props.setFetchReview(!props.fetchReviews);
+        //props breaks the submit review
+        // props.setFetchReview(!props.fetchReviews);
         setType('');
         setText('');
     }
