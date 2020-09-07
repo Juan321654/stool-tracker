@@ -2,6 +2,7 @@ import React from "react";
 import ShowReview from "./Components/ShowReview";
 import { Link, Route } from "react-router-dom";
 import CreateReview from "./Components/CreateReview";
+// import stoolchart from "./pictures/stoolchart";
 import "./App.css";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <div>
         <Route exact path="/">
           <ShowReview />
+          {/* <img src={stoolchart} alt="stoolchart" /> */}
         </Route>
         <Route path="/create">
           <CreateReview />

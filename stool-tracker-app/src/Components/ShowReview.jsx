@@ -28,7 +28,7 @@ function ShowReview() {
           <Review review={review} key={review.id} />
         ))}
       </div>
-      <CreateReview fetchReview={fetchReview} setFetchReview={setFetchReview} />
+      {/* <CreateReview fetchReview={fetchReview} setFetchReview={setFetchReview} /> */}
     </div>
   );
 }
