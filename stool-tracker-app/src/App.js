@@ -1,16 +1,15 @@
-import React from 'react';
-import ShowReview from './ShowReview';
-import { Link, Route } from 'react-router-dom';
-import CreateReview from './CreateReview';
-import './App.css';
-
+import React from "react";
+import ShowReview from "./ShowReview";
+import { Link, Route } from "react-router-dom";
+import CreateReview from "./CreateReview";
+import "./App.css";
 
 function App() {
-
-
   return (
     <div>
-      <header><h1>Stool Tracker</h1></header>
+      <header>
+        <h1>Stool Tracker</h1>
+      </header>
       <nav>
         <button className="home-button">
           <Link to="/">Home</Link>
@@ -25,22 +24,18 @@ function App() {
           <ShowReview />
         </Route>
         <Route path="/create">
-
           <CreateReview />
         </Route>
-
       </div>
 
       {/* <CreateReview /> */}
     </div>
-
   );
 }
 
 export default App;
 
-
 //read data in postman
 //check that works and get request
 //set up an input field
-//trey to do a post request
+//trey to do a post request.
