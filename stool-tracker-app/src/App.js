@@ -8,19 +8,22 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <header>
-        <h1>Stool Tracker</h1>
-      </header>
-      <nav>
-        <button className="home-button">
-          <Link to="/">Home</Link>
-        </button>
+      <div className="header-w-pic">
+        <header>
+          <h1>Stool Tracker</h1>
+        </header>
+        <nav>
+          <button className="home-button">
+            <Link to="/">Home</Link>
+          </button>
 
-        <button>
-          <Link to="/create">Write a Review</Link>
-        </button>
-      </nav>
-      <img src={Stoolchart} alt="stoolchart" />
+          <button>
+            <Link to="/create">Write a Review</Link>
+          </button>
+        </nav>
+        <img className="poop-picture" src={Stoolchart} alt="stoolchart" />
+      </div>
+
       <div>
         <Route exact path="/">
           <ShowReview />
