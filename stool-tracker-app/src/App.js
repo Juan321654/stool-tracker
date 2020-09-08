@@ -8,10 +8,11 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <div className="header-w-pic">
+      <div className="header">
         <header>
           <h1>Stool Tracker</h1>
         </header>
+
         <nav>
           <button className="home-button">
             <Link to="/">Home</Link>
@@ -21,14 +22,18 @@ function App() {
             <Link to="/create">Write a Review</Link>
           </button>
         </nav>
-        <img className="poop-picture" src={Stoolchart} alt="stoolchart" />
       </div>
 
-      <div className="comment-section">
+      <div className="homepage">
         <Route exact path="/">
           <ShowReview />
+          <img className="poop-picture" src={Stoolchart} alt="stoolchart" />
         </Route>
+      </div>
+
+      <div className="writepage">
         <Route path="/create">
+          <img className="poop-picture" src={Stoolchart} alt="stoolchart" />
           <CreateReview />
         </Route>
       </div>
