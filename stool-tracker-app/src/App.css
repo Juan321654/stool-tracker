@@ -11,7 +11,7 @@
 
 .writepage {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
 }
@@ -20,6 +20,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 50px;
 }
 
 /* .poop-picture {
@@ -56,7 +57,7 @@ img {
 }
 
 .user-text {
-  height: 265px;
+  height: 365px;
   width: 360px;
   max-width: 600px;
 }
@@ -65,6 +66,13 @@ img {
   .homepage {
     display: flex;
     flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .writepage {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
