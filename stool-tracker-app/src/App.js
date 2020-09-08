@@ -24,7 +24,7 @@ function App() {
         <img className="poop-picture" src={Stoolchart} alt="stoolchart" />
       </div>
 
-      <div>
+      <div className="comment-section">
         <Route exact path="/">
           <ShowReview />
         </Route>
