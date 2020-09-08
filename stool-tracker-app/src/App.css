@@ -1,5 +1,5 @@
 .App {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Chau Philomene One", sans-serif;
 }
 
 .homepage {
@@ -7,6 +7,21 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+button {
+  margin: 5px;
+  padding: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(211, 117, 29);
 }
 
 .writepage {
@@ -20,7 +35,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
+  background-color: chocolate;
+  color: white;
 }
 
 /* .poop-picture {
@@ -34,8 +51,10 @@
 }
 
 .user-post,
-img {
-  box-shadow: 5px 5px 30px rgb(161, 97, 44);
+img,
+textarea,
+input {
+  box-shadow: 5px 5px 20px rgba(161, 97, 44, 0.863);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -56,13 +75,19 @@ img {
   justify-content: center;
 }
 
+input,
+textarea,
+button {
+  border-radius: 6px;
+}
+
 .user-text {
   height: 365px;
   width: 360px;
   max-width: 600px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .homepage {
     display: flex;
     flex-direction: column-reverse;
