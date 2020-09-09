@@ -3,6 +3,7 @@ import ShowReview from "./Components/ShowReview";
 import { Link, Route } from "react-router-dom";
 import CreateReview from "./Components/CreateReview";
 import Stoolchart from "./pictures/stoolchart.png";
+import { AiFillHome, AiFillEdit } from "react-icons/ai";
 import "./App.css";
 
 function App() {
@@ -14,13 +15,13 @@ function App() {
         </header>
 
         <nav>
-          <button className="home-button">
-            <Link to="/">Home</Link>
-          </button>
+          <Link to="/">
+            <AiFillHome size="2em" color="white" />
+          </Link>
 
-          <button>
-            <Link to="/create">Write a Review</Link>
-          </button>
+          <Link to="/create">
+            <AiFillEdit size="2em" color="white" />
+          </Link>
         </nav>
       </div>
 
