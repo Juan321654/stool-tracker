@@ -32,7 +32,9 @@ function CreateReview(props) {
 
   return (
     <form className="user-form" onSubmit={handleSubmit}>
-      <label htmlFor="type">Choose a type</label>
+      <label className="choose-type" htmlFor="type">
+        Choose a type
+      </label>
 
       <select
         id="type"

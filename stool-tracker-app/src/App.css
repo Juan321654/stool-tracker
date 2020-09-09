@@ -9,6 +9,10 @@
   justify-content: center;
 }
 
+.choose-type {
+  padding-bottom: 5px;
+}
+
 button {
   margin: 5px;
   padding: 8px;
@@ -76,7 +80,8 @@ img {
 
 input,
 textarea,
-button {
+button,
+.option-dropdown {
   border-radius: 6px;
 }
 
