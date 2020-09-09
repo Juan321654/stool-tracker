@@ -57,7 +57,11 @@ function App() {
       </div>
 
       <div className="footers">
-        <AiFillGithub size="2em" color="Chocolate" />
+        <AiFillGithub
+          size="2em"
+          color="Chocolate"
+          href="https://github.com/Juan321654"
+        />
         <AiOutlineFacebook size="2em" color="Chocolate" />
       </div>
     </div>

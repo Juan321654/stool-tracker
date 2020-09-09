@@ -1,10 +1,13 @@
 .App {
   /* font-family: "Chau Philomene One", sans-serif; */
 }
+
 body {
   background-color: rgb(255, 238, 212);
 }
-.homepage {
+
+.homepage,
+.footers {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -25,17 +28,8 @@ button {
   padding: 8px;
 }
 
-button:hover {
-  background-color: rgb(214, 213, 213);
-}
-
 a {
   padding: 0 30px 0 30px;
-}
-
-a:visited {
-  text-decoration: none;
-  color: rgb(211, 117, 29);
 }
 
 .writepage {
@@ -65,7 +59,6 @@ a:visited {
 img,
 textarea,
 input {
-  /* box-shadow: 5px 5px 20px rgba(161, 97, 44, 0.863); */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -97,13 +90,6 @@ button,
   height: 365px;
   width: 360px;
   max-width: 600px;
-}
-
-.footers {
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: center;
 }
 
 p {
