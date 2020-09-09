@@ -3,7 +3,12 @@ import ShowReview from "./Components/ShowReview";
 import { Link, Route } from "react-router-dom";
 import CreateReview from "./Components/CreateReview";
 import Stoolchart from "./pictures/stoolchart.png";
-import { AiFillHome, AiFillEdit } from "react-icons/ai";
+import {
+  AiFillHome,
+  AiFillEdit,
+  AiFillGithub,
+  AiOutlineFacebook,
+} from "react-icons/ai";
 import { RiMentalHealthLine } from "react-icons/ri";
 import "./App.css";
 import Health from "./Components/Health";
@@ -51,7 +56,10 @@ function App() {
         </Route>
       </div>
 
-      {/* <CreateReview /> */}
+      <div className="footers">
+        <AiFillGithub size="2em" color="Chocolate" />
+        <AiOutlineFacebook size="2em" color="Chocolate" />
+      </div>
     </div>
   );
 }

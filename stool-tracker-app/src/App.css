@@ -11,6 +11,11 @@ body {
   justify-content: center;
 }
 
+.health-page {
+  display: flex;
+  flex-direction: column;
+}
+
 .choose-type {
   padding-bottom: 5px;
 }
@@ -91,6 +96,17 @@ button,
   height: 365px;
   width: 360px;
   max-width: 600px;
+}
+
+.footers {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+p {
+  padding: 0px 10px 0px 10px;
 }
 
 @media only screen and (max-width: 700px) {
