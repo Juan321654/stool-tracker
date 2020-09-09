@@ -4,7 +4,9 @@ import { Link, Route } from "react-router-dom";
 import CreateReview from "./Components/CreateReview";
 import Stoolchart from "./pictures/stoolchart.png";
 import { AiFillHome, AiFillEdit } from "react-icons/ai";
+import { RiMentalHealthLine } from "react-icons/ri";
 import "./App.css";
+import Health from "./Components/Health";
 
 function App() {
   return (
@@ -22,6 +24,10 @@ function App() {
           <Link to="/create">
             <AiFillEdit size="2em" color="white" />
           </Link>
+
+          <Link to="/health">
+            <RiMentalHealthLine size="2em" color="white" />
+          </Link>
         </nav>
       </div>
 
@@ -36,6 +42,12 @@ function App() {
         <Route path="/create">
           <img className="poop-picture" src={Stoolchart} alt="stoolchart" />
           <CreateReview />
+        </Route>
+      </div>
+
+      <div>
+        <Route path="/health">
+          <Health />
         </Route>
       </div>
 
