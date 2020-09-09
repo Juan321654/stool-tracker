@@ -1,7 +1,9 @@
 .App {
   /* font-family: "Chau Philomene One", sans-serif; */
 }
-
+body {
+  background-color: rgb(255, 238, 212);
+}
 .homepage {
   display: flex;
   flex-direction: row;
