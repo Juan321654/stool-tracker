@@ -1,5 +1,5 @@
 .App {
-  font-family: "Chau Philomene One", sans-serif;
+  /* font-family: "Chau Philomene One", sans-serif; */
 }
 
 .homepage {
@@ -57,13 +57,14 @@ a:visited {
 img,
 textarea,
 input {
-  box-shadow: 5px 5px 20px rgba(161, 97, 44, 0.863);
+  /* box-shadow: 5px 5px 20px rgba(161, 97, 44, 0.863); */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin: 10px;
-  padding-left: 8px;
+  padding: 6px;
   border-radius: 6px;
+  background-color: rgba(211, 117, 29, 0.199);
 }
 
 img {
