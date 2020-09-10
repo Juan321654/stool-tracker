@@ -13,7 +13,6 @@ function CreateReview(props) {
     };
     const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/stool-tracker`;
     console.log(airtableURL);
-    // await axios.post(url, data, options (headers))
     await axios.post(
       airtableURL,
       { fields },
@@ -24,8 +23,6 @@ function CreateReview(props) {
         },
       }
     );
-    //props breaks the submit review
-    // props.setFetchReview(!props.fetchReviews);
     setType("");
     setText("");
   };
