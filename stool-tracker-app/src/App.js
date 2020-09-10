@@ -8,6 +8,7 @@ import {
   AiFillEdit,
   AiFillGithub,
   AiOutlineFacebook,
+  AiOutlineLinkedin,
 } from "react-icons/ai";
 import { RiMentalHealthLine } from "react-icons/ri";
 import "./App.css";
@@ -57,12 +58,18 @@ function App() {
       </div>
 
       <div className="footers">
-        <AiFillGithub
-          size="2em"
-          color="Chocolate"
-          href="https://github.com/Juan321654"
-        />
-        <AiOutlineFacebook size="2em" color="Chocolate" />
+        <a target="_blank" href="https://github.com/Juan321654">
+          <AiFillGithub size="2em" color="Chocolate" />
+        </a>
+        <a target="_blank" href="https://www.facebook.com/juan321654/">
+          <AiOutlineFacebook size="2em" color="Chocolate" />
+        </a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/juancamachofierro/"
+        >
+          <AiOutlineLinkedin size="2em" color="Chocolate" />
+        </a>
       </div>
     </div>
   );
