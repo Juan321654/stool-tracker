@@ -2,7 +2,7 @@ import React from "react";
 import ShowReview from "./Components/ShowReview";
 import { Link, Route } from "react-router-dom";
 import CreateReview from "./Components/CreateReview";
-import Stoolchart from "./pictures/stoolchart.png";
+import stoolChart from "./pictures/stool-chart.png";
 import {
   AiFillHome,
   AiFillEdit,
@@ -40,13 +40,13 @@ function App() {
       <div className="homepage">
         <Route exact path="/">
           <ShowReview />
-          <img className="poop-picture" src={Stoolchart} alt="stoolchart" />
+          <img className="poop-picture" src={stoolChart} alt="stoolchart" />
         </Route>
       </div>
 
       <div className="writepage">
         <Route path="/create">
-          <img className="poop-picture" src={Stoolchart} alt="stoolchart" />
+          <img className="poop-picture" src={stoolChart} alt="stoolchart" />
           <CreateReview />
         </Route>
       </div>
