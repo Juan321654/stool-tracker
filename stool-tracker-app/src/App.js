@@ -58,14 +58,23 @@ function App() {
       </div>
 
       <div className="footers">
-        <a target="_blank" href="https://github.com/Juan321654">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/Juan321654"
+        >
           <AiFillGithub size="2em" color="Chocolate" />
         </a>
-        <a target="_blank" href="https://www.facebook.com/juan321654/">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.facebook.com/juan321654/"
+        >
           <AiOutlineFacebook size="2em" color="Chocolate" />
         </a>
         <a
           target="_blank"
+          rel="noopener noreferrer"
           href="https://www.linkedin.com/in/juancamachofierro/"
         >
           <AiOutlineLinkedin size="2em" color="Chocolate" />
