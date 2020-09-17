@@ -54,4 +54,4 @@ weaknesses: becoming overwhelmed, mental block
 strategy: take a break, talk with my wife.
 
 ## App Link
-www.netlify.com/futurelinkhttps://5f5e469bda13e36606ccbc56--stooltracker.netlify.app/
+https://stooltracker.netlify.app/
